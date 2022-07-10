@@ -44,7 +44,7 @@ class Maintable extends Component {
                 <tr>
                   <th>ID</th>
                   <th>Title</th>
-                  <th>Url</th>
+                  <th>Pic</th>
                     <th></th>
                 </tr>
               </thead>

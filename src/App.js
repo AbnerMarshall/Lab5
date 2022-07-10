@@ -1,6 +1,7 @@
 
 import './App.css';
 import Maintable from "./Components/Main-table";
+import AddToDatabase from "./Components/AddToDatabase";
 
 function App() {
   return (
@@ -12,7 +13,9 @@ function App() {
           <Maintable/>
           </div>
         </div>
-        <div className="Main-footer">Footer</div>
+        <div className="Main-footer">
+        <AddToDatabase/>
+        </div>
     </div>
       </div>
   );
