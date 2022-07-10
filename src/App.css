@@ -2,14 +2,63 @@
   text-align: center;
 }
 
-.App-header {
+.Main-App {
   background-color: #282c34;
-  min-height: 100vh;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+
+.Main-Layout {
+ display : grid;
+    grid-template-rows : 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns : 1fr;
+    height: 100%;
+    width: 80%;
+    grid-gap: 10px;
+}
+
+.Main-header {
+    grid-row : 1;
+
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+  background-color: grey;
+}
+
+.Main-content {
+    grid-row : 2/ span 4;
+    grid-column : 1;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+  background-color: cadetblue;
+}
+
+.Main-footer {
+  grid-row: 6;
+
+
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+  background-color: darkolivegreen;
 }
 
